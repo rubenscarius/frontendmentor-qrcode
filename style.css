@@ -4,19 +4,19 @@
 }
 
 body {
-    background-color: hsl(212, 45%, 89%);  
+    background-color: hsl(212, 45%, 89%);
     height: 100vh;
     display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .card {
     background-color: hsl(0, 0%, 100%);
     width: 300px;
-    border-radius: 20px;        
+    border-radius: 20px;
 }
 
 .qrcode {
@@ -42,3 +42,13 @@ body {
     text-align: center;
     font-size: 15px;
 }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
